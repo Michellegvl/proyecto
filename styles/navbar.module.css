@@ -1,0 +1,121 @@
+/* Estilos por defecto (modo claro) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ccf7fe; /* Color azul claro */
+  border-bottom: 2px solid #007bff; /* Línea azul fuerte */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+  color: black;  /* Texto negro para el modo claro */
+}
+
+.logo img {
+  height: 40px;
+  cursor: pointer; /* Indicador de clic */
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Transición de fondo y color */
+}
+
+.menu li a:hover {
+  background-color: #e0f7fa; /* Fondo más claro al pasar */
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contactButton {
+  background-color: #616161;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contactButton:hover {
+  background-color: #4f4f4f;
+}
+
+.userIcon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.userIcon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.userIcon span {
+  font-size: 0.8rem;
+  color: #0056b3;
+}
+
+/* Estilos para cuando el modo oscuro esté activado */
+body.dark .navbar {
+  background-color: #333;  /* Fondo oscuro para el modo oscuro */
+  color: white !important; /* Texto blanco para el modo oscuro */
+}
+
+body.dark .themeToggle {
+  background-color: #444;  /* Fondo más oscuro para el botón */
+  color: white !important;
+}
+
+body.dark .menu li a {
+  color: white !important; /* Texto blanco en los enlaces del menú en modo oscuro */
+}
+
+body.dark .menu li a:hover {
+  background-color: #555;  /* Fondo más oscuro al pasar en modo oscuro */
+}
+
+body.dark .rightSection .contactButton {
+  background-color: #4a4a4a;  /* Fondo más oscuro para el botón en modo oscuro */
+}
+
+/* Estilo para todo el body en modo oscuro */
+body.dark {
+  background-color: #333;  /* Fondo oscuro para el cuerpo */
+  color: white;  /* Texto blanco en todo el cuerpo */
+}
+.signOutButton {
+  color: red; /* Establece el color del texto a rojo */
+  background: none; /* Eliminar el fondo si lo deseas */
+  border: none; /* Si no quieres bordes */
+  cursor: pointer; /* Apuntar el cursor al hacer hover */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.signOutButton:hover {
+  opacity: 0.8; /* Efecto de hover si deseas */
+}
+.signOutButton:hover {
+  background-color: red; /* Cambia el fondo al pasar el mouse */
+  color: white; /* Cambiar color del texto al blanco */
+}
+

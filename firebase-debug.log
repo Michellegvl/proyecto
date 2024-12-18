@@ -1,0 +1,21 @@
+[debug] [2024-12-09T03:40:00.918Z] ----------------------------------------------------------------------
+[debug] [2024-12-09T03:40:00.922Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Olga\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-09T03:40:00.923Z] CLI Version:   13.28.0
+[debug] [2024-12-09T03:40:00.923Z] Platform:      win32
+[debug] [2024-12-09T03:40:00.924Z] Node Version:  v20.18.0
+[debug] [2024-12-09T03:40:00.924Z] Time:          Sun Dec 08 2024 21:40:00 GMT-0600 (hora estándar central)
+[debug] [2024-12-09T03:40:00.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-09T03:40:00.934Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-09T03:40:00.935Z] > authorizing via signed-in user (exorcistazul@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Olga\Documents\topipcos 2 la revancha\proyecto
+
